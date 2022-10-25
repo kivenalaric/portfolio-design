@@ -96,11 +96,10 @@ figcaption {
   border: none;
   margin: 50px;
   font-size: 18px;
-
 }
 
 .contact {
-  background-color: rgb(37, 37, 39);
+  background-color: #252527;
   padding: 100px;
 }
 
@@ -125,7 +124,7 @@ figcaption {
 }
 
 .footer {
-  background-color: rgb(37, 37, 39);
+  background-color: #252527;
 }
 
 .footer p {
