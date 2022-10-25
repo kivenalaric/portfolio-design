@@ -6,7 +6,7 @@ body {
 #navbar {
   display: flex;
   justify-content: flex-end;
-  background-color: #f1080811;
+  background-color: #de0707;
   padding: 15px;
   gap: 10px;
 }
@@ -15,4 +15,22 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+}
+
+.about {
+  margin: 0 auto 0 auto;
+  padding: 100px;
+  background-color: #292121;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about {
+  text-align: center;
+}
+
+section p {
+  color: #861010;
+  font-style: italic;
+  text-align: center;
 }
