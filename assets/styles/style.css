@@ -35,3 +35,60 @@ section p {
   font-style: italic;
   text-align: center;
 }
+
+#projects {
+  background-color: #4760b3;
+  padding: 100px;
+  justify-content: center;
+}
+
+.head {
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  width: 670px;
+  margin-top: -40;
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+
+figure {
+  margin: 10px;
+}
+
+img {
+  width: 370px;
+  height: 350px;
+  margin: 10px;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  background-color: #333336;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  background-color: #333336;
+  color: #fff;
+  justify-content: center;
+  border: none;
+  margin: 50px;
+  padding: 15px;
+  font-size: 18px;
+}
