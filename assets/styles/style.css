@@ -3,6 +3,11 @@ body {
   color: #0f0f6c;
 }
 
+.nav {
+  position: relative;
+  margin-top: -10px;
+}
+
 #navbar {
   display: flex;
   justify-content: flex-end;
@@ -34,12 +39,13 @@ section p {
   color: #861010;
   font-style: italic;
   text-align: center;
+  font-size: 20px;
 }
 
 #projects {
   background-color: #4760b3;
   padding: 100px;
-  justify-content: center;
+  max-width: fit-content;
 }
 
 .head {
@@ -48,7 +54,7 @@ section p {
 }
 
 hr {
-  width: 670px;
+  max-width: 670px;
   margin-top: -40;
 }
 
@@ -89,6 +95,42 @@ figcaption {
   justify-content: center;
   border: none;
   margin: 50px;
-  padding: 15px;
   font-size: 18px;
+
+}
+
+.contact {
+  background-color: rgb(37, 37, 39);
+  padding: 100px;
+}
+
+.contact-head h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.social-links p {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+}
+
+.under {
+  background-color: #de0707;
+  padding: 2.5px;
+  margin-top: -3px;
+  margin-bottom: -21px;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(37, 37, 39);
+}
+
+.footer p {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  color: #fff;
 }
