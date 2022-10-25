@@ -29,6 +29,10 @@ a {
   text-align: center;
 }
 
+.about h1 {
+  color: #fff;
+}
+
 section p {
   color: #861010;
   font-style: italic;
