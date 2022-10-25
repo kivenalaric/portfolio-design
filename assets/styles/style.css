@@ -1,18 +1,18 @@
 body {
-            font-family :    Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-            color :  rgb(145, 82, 82);
+     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+     color:rgb(145, 82, 82);
 }
 
 #navbar {
-                display : flex;
-            justify-content : flex-end;
-            background-color : rgb(221, 38, 53);
-            padding : 15px;
-            gap: 10px;
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgb(221, 38, 53);
+        padding: 15px;
+        gap: 10px;
 }
 
 a   {
-            text-decoration : none;
-            color: #fff;
-            font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
 }
