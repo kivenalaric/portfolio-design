@@ -1,21 +1,94 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 26px;
-    font-weight: 500;
-    color: #fff;
-    
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #0f0f6c;
 }
 
 #navbar {
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgb(221, 38, 53);
-    padding: 15px;
-    gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #de0707;
+  padding: 15px;
+  gap: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.about {
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #292121;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about h1 {
+  color: #fff;
+}
+
+section p {
+  color: #861010;
+  font-style: italic;
+  text-align: center;
+}
+
+#projects {
+  background-color: #4760b3;
+  padding: 100px;
+  justify-content: center;
+}
+
+.head {
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  width: 670px;
+  margin-top: -40;
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+
+figure {
+  margin: 10px;
+}
+
+img {
+  width: 370px;
+  height: 350px;
+  margin: 10px;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  background-color: #333336;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  background-color: #333336;
+  color: #fff;
+  justify-content: center;
+  border: none;
+  margin: 50px;
+  padding: 15px;
+  font-size: 18px;
 }
