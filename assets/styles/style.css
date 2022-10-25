@@ -1,8 +1,3 @@
-body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #0f0f6c;
-}
-
 .nav {
   position: relative;
   margin-top: -10px;
@@ -78,6 +73,7 @@ img {
 
 figcaption {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: #333336;
   color: #fff;
@@ -90,12 +86,14 @@ figcaption {
 
 .button {
   display: flex;
+  flex-wrap: wrap;
   background-color: #333336;
   color: #fff;
   justify-content: center;
   border: none;
   margin: 50px;
   font-size: 18px;
+  padding: 20px;
 }
 
 .contact {
@@ -108,17 +106,30 @@ figcaption {
   text-align: center;
 }
 
-.social-links p {
+.social-links {
   display: flex;
-  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+
+.social-links ul{
+  display: flex;
+  margin: auto;
   color: #fff;
-  justify-content: center;
+  justify-content: center;  
+}
+
+.social-links ul a{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .under {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #de0707;
-  padding: 2.5px;
-  margin-top: -3px;
+  padding: 1px;
+  margin-top: -2px;
   margin-bottom: -21px;
   width: 100%;
 }
@@ -128,8 +139,14 @@ figcaption {
 }
 
 .footer p {
-  padding-top: 10px;
-  margin-bottom: 10px;
-  padding-bottom: 4px;
   color: #fff;
+}
+
+.first {
+  display: flex;
+  justify-content: flex-start;
+}
+.second {
+  display: flex;
+  justify-content: flex-end;
 }

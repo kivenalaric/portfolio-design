@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioSite</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header class="nav">
@@ -15,6 +16,7 @@
                 <a href="" id="contacts" > Contacts </a>
     </div>
     </header>
+    <main>
     <section id="intro" class="about">
         <h1>Hey I'm Mimic</h1>
         <p>a web developer</p>
@@ -48,8 +50,8 @@
               <img src="assets/images/tic-tac-toe.jpg" alt="tic-tac-toe" class="img">
               <figcaption>Tic-Tac-Toe</figcaption>
             </figure>
+            <button class="button"><b>Show All</b></button>
         </div>
-        <button class="button"><b>Show All</b></button>
     </section>
     <section id="contact" class="contact">
         <div class="contact-head">
@@ -57,21 +59,24 @@
             <p>How do you take your coffee?</p>
         </div>
         <div class="social-links">
-            <p><b>Facebook</b></p>
-            <p><b>GitHub</b></p>
-            <p><b>Twitter</b></p>
-            <p><b>Send a mail</b></p>
-            <p><b>Call me</b></p>
+            <ul>
+            <a href=""><b><i class="fa-brands fa-facebook"></i></b>&nbsp Facebook</b></a>
+            <a href=""><b><i class="fa-brands fa-github"></i><b>&nbsp GitHub</b></a>
+            <a href=""><b><i class="fa-brands fa-twitter"></i><b>&nbsp Twitter</b></a>
+            <a href=""><b><i class="fa-solid fa-envelope"></i><b>&nbsp Send a mail</b></a>
+            <a href=""><b><i class="fa-solid fa-phone"></i><b>&nbsp Call me</b></a>
+            </ul>
         </div>
         
     </section>
+    </main>
     <hr class="under">
     <section id="footer">
     <footer class="footer">
-        <p>
+        <p class="first">
             **This is just a fake portfolio. All the projects and contact details given are not real.
         </p>
-        <p>
+        <p class="second">
             &copy; Created for freeCodeCamp 
         </p>
     </footer>
