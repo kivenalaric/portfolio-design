@@ -38,6 +38,7 @@ section p {
 }
 
 #projects {
+  height: auto;
   background-color: #4760b3;
   padding: 100px;
   max-width: fit-content;
@@ -145,8 +146,11 @@ figcaption {
 .first {
   display: flex;
   justify-content: flex-start;
+  padding-top: 8px;
 }
 .second {
   display: flex;
   justify-content: flex-end;
+  margin-top: -40px;
+  padding-bottom: 10px;
 }
