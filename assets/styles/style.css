@@ -1,7 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 26px;
-    line-height: 1.2;
     font-weight: 500;
     color: #fff;
     
@@ -11,57 +10,12 @@ body {
     display: flex;
     justify-content: flex-end;
     background-color: rgb(221, 38, 53);
-    
+    padding: 15px;
+    gap: 10px;
 }
 
-li {
-    font-size: 18px;
-    padding: 8px;
-    color: #fff;
-    display: inline-flex;
-
-}
-
-li a {
-    color: #fff;
+a {
     text-decoration: none;
-}
-
-.intro {
-    margin: 0 auto 0 auto;
-    padding: 100px;
-    background-color: rgb(41, 33, 33);
-    justify-content: center;
-    
-}
-
-.intro h1 {
-    text-align: center;
-}
-
-section p {
-    color: rgb(134, 16, 16);
-    font-style: italic;
-    text-align: center;
-}
-
-.projects {
-    text-align: center;
-    background: rgb(60, 88, 175);
-    padding: 160px 32px;
-
-    
-}
-
-.contact {
-    background-color: rgb(37, 37, 39);
-    padding: 100px;
-}
-
-.contact h1 {
-    text-align: center;
-}
-
-.footer {
-    background-color: rgb(37, 37, 39);
+    color: #fff;
+    font-size: 18px;
 }
