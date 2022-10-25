@@ -18,14 +18,11 @@ a {
 }
 
 .about {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   padding: 100px;
   background-color: #292121;
   flex-direction: column;
   justify-content: center;
-}
-
-.about {
   text-align: center;
 }
 
