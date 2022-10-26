@@ -6,15 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioSite</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <header class="nav">
     <div id="navbar">
-                <a href="" id="About" > About </a>
-                <a href="" id="Work" > Work </a>
-                <a href="" id="Contacts" > Contacts </a>
-    <div></div>
+                <a href="" id="about" > About </a>
+                <a href="" id="work" > Work </a>
+                <a href="" id="contacts" > Contacts </a>
+    </div>
     </header>
-   
+    <main>
+    <section id="intro" class="about">
+        <h1>Hey I'm Mimic</h1>
+        <p>a web developer</p>
+    </section>
+    <section id="projects" class="project-section">
+            <h1 class="head">These are some of My Projects</h1>
+            <hr>
+        <br>
+            <div class="project-img">
+            <figure>
+              <img src="assets/images/tribute.jpg" alt="tributepage" class="img">
+              <figcaption>Tribute Page</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/random-quote-machine.jpg" alt="random quote machine" class="img">
+              <figcaption>Random-quote-machine</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/calc.jpg" alt="calculator" class="img">
+              <figcaption>Javascript Calculator</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/map.jpg" alt="map" class="img">
+              <figcaption>Map</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/wiki.png" alt="wiki" class="img">
+              <figcaption>Wiki</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/tic-tac-toe.jpg" alt="tic-tac-toe" class="img">
+              <figcaption>Tic-Tac-Toe</figcaption>
+            </figure>
+            <button class="button"><b>Show All</b></button>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-head">
+            <h1>Lets Work Together...</h1>
+            <p>How do you take your coffee?</p>
+        </div>
+        <div class="social-links">
+            <ul>
+            <a href=""><b><i class="fa-brands fa-facebook"></i>&nbsp Facebook</b></a>
+            <a href=""><b><i class="fa-brands fa-github"></i>&nbsp GitHub</b></a>
+            <a href=""><b><i class="fa-brands fa-twitter"></i>&nbsp Twitter</b></a>
+            <a href=""><b><i class="fa-solid fa-envelope"></i>&nbsp Send a mail</b></a>
+            <a href=""><b><i class="fa-solid fa-phone"></i>&nbsp Call me</b></a>
+            </ul>
+        </div>
+    </section>
+    </main>
+    <hr class="under">
+    <section id="footer">
+    <footer class="footer">
+        <p class="first">
+            **This is just a fake portfolio. All the projects and contact details given are not real.
+        </p>
+        <p class="second">
+            &copy; Created for freeCodeCamp 
+        </p>
+    </footer>
+    </section>
 </body>
 </html>
